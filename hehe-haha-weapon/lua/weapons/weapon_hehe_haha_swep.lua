@@ -36,8 +36,6 @@ SWEP.Secondary.DefaultClip = -1
 SWEP.Secondary.Automatic = false
 SWEP.Secondary.Ammo = "none"
 
---SWEP.ShootSound = Sound("weapons/laugh/laugh.wav")
-
 function SWEP:Initialize()
     timer.Simple(0.2, function()
         self:SetHoldType("idle")
